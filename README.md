@@ -16,4 +16,4 @@ The user can make basic calculation as addiction, subrtaction ecc.. Is possible 
 
 ## Link
 ---
-Check the [demo](https://gl-cardillo.github.io/Etch-a-Sketch/) 
+Check the [demo](https://gl-cardillo.github.io/Calculator/) 
