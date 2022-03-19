@@ -1,0 +1,72 @@
+html {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  margin-top: 100px;
+  border: 2px solid black;
+  background-color: rgb(110, 110, 110);
+  width: 380px;
+  height: 580px;
+  border-radius: 15px;
+}
+
+button  {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 30px;
+  min-height: 80px;
+  min-width: 80px;
+  
+}
+
+.screen {
+  padding: 0  ;
+  background-color: white;
+  margin: 10px 25px;
+  border: 2px solid black;   
+  border-radius: 5px;
+}
+
+.displayValue p {
+  margin: 5px ;
+}
+
+.displayValue {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 10px;
+
+}
+
+.displayCurrentNumber p {
+  margin: 10px 10px 5px 10px ;
+}
+
+.displayCurrentNumber {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 60px;
+  font-size: 45px;
+}
+
+.button-clear, .button-delete {
+  border-radius: 10px;
+  width: 164px
+}
+
+button:hover {
+  background-color: rgb(197, 193, 193);
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 18px;
+}
